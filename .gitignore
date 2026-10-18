@@ -1,0 +1,22 @@
+# macOS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Maven and other build output
+**/target/
+**/build/
+**/dist/
+*.log
+**/HELP.md
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
